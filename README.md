@@ -38,8 +38,8 @@ from script import fix_marks, remove_chastisements, create_commendation
  - `remove_chastisements('Имя и фамилия')` - удаляет все имеющиеся замечания.
 Пример запуска: `remove_chastisements('Фролов Иван')`
 
- - `create_commendation('Имя и фамилия', 'Предмет')` - создает похвалу по последнему уроку введенного предмета.
- Примет запуска: `create_commendation('Фролов Иван', 'Математика')`
+ - `create_commendation('Имя и фамилия', 'Предмет')` - создает похвалу по последнему уроку введенного предмета.            
+ Пример запуска: `create_commendation('Фролов Иван', 'Математика')`
  
  Для просмотра изменений выходим из shell командой `quit` и запускаем сервер командой `python3 manage.py runserver`
 
